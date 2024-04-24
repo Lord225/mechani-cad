@@ -4,15 +4,30 @@ const messages = {
   en: {
     nav: {
         home: 'Home',
-        bolid: 'Bolid',
+        bolid: 'Bolide',
         team: 'Team',
         competition: 'Competition',
         colab: 'Collaboration',
         contact: 'Contact',
     },
     bolid: {
-      discover: "Discover the bolid",
+      discover: "Meet our bolide",
+      body: {
+        title: "Lightweight bodywork",
+        content: "Self-supporting construction made of carbon fibre based laminate, coated with low viscous friction varnish. In combination with a streamlined body shape, it provides minimum air resistance."
+      },
+      hydrogen: {
+        title: "Hydrogen fuel cell",
+        content: "The electric motor is powered by a hydrogen fuel cell - a modern and ecological source of energy with high efficiency."
+      }, 
+      motor: {
+        title: "Induction motor",
+        content: "It is distinguished by its recuperative braking ability, so that it does not lose stored energy during deceleration, but converts it into electrical energy."
+      }
     },
+    team: {
+      // TODO
+    }
 
   },
   pl: {
@@ -26,6 +41,7 @@ const messages = {
     },  
     bolid: {
       discover: "Poznaj nasz bolid",
+      // TODO
     },
     team: {
       team: "Zespół",

@@ -1,6 +1,7 @@
 <template>
   <carousel 
     :items-to-show="1"
+    :autoplay="5000"
     :wrap-around="true"
     >
     <slide v-for="(slide, index) in slides" :key="index">

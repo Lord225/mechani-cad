@@ -25,7 +25,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .card-component {
   max-width: 100%;
 
