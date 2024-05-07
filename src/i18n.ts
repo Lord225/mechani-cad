@@ -9,6 +9,7 @@ const messages = {
         competition: 'Competition',
         colab: 'Collaboration',
         contact: 'Contact',
+        predecessor: 'Predecessors',
     },
     bolid: {
       discover: "Meet our bolide",
@@ -27,7 +28,7 @@ const messages = {
     },
     team: {
       // TODO
-    }
+    },
 
   },
   pl: {
@@ -38,6 +39,7 @@ const messages = {
         competition: 'Zawody',
         colab: 'Współpraca',
         contact: 'Kontakt',
+        predecessor: 'Poprzednicy',
     },  
     bolid: {
       discover: "Poznaj nasz bolid",
@@ -69,6 +71,16 @@ const messages = {
         title: "Kierowcy",
         conent: "Do ich zadań należy takie prowadzenie bolidu, aby uzyskać jak najlepsze wyniki na zawodach. Oczywiście biorą czynny udział przy testach pojazdu i projektowaniu jego wyposażenia. A ich najważniejszym zadaniem jest piękne reprezentowanie naszego koła na zawodach Shell Eco-marathon 😉"
       },
+    },
+    competition: {
+      title: "Zawody",
+      text1: "Shell Eco-marathon to jeden z najbardziej innowacyjnych konkursów dla młodych konstruktorów. Studenckie zespoły z całego świata stają przed wyzwaniem\
+      zbudowania i przetestowania pojazdów możliwie najbardziej sprawnych pod względem energetycznym. Zwycięża drużynq, której pojazd może pokonać najdłuższy dystans na ekwiwalencie jednego litra paliwa lub jednej\
+      kilowatogodziny [1 kWh]",
+      text2: "Obecnie drużyny złożone z młodych inżynierów mają możliwość startu w dwóch aktegoriach - UrbanConcept oraz Prototype. Pojazdy rywalizujące w pierwszej z wymienionych muszą spełniać\
+      wymogi uprawniające je do poruszania się w ruchu miejskim. Bolidy startujące w kategorii Prototype nie mają tego rodzaju ograniczeń, a ich głównym celem jest osiągnięcie maksymalnej wydajności, podczas gdy wygoda kierowcy najbardziejma większego znaczenia. \
+      Dlatego też bolidy wyróżniają się aerodynamiczną formą oraz niską masą własną. Dodatkowo w każdej z kategorii jest odrębna klasyfikacja pojazdów uwzględniająca rodzaj wykorzystywanego napędu.\
+      Nasz bolid zalicza się do aktegorii Prototype i tym samym pozwala nam na maksymalne przebadanie czynników wpływających na zużycie energii."
     }
   }
 }

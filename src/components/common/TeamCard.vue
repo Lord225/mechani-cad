@@ -31,7 +31,7 @@ export default {
 
   .card {
     height: 100%;
-    transition: all 0.3s ease;
+    transition: all 0.15s ease;
     &:hover {
       transform: scale(1.05);
       box-shadow: 0 40px 40px rgba(0, 20, 60, 0.8);

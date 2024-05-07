@@ -1,13 +1,30 @@
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from './components/views/Home.vue'
-
-const routes = [
-    { path: '/', component: Home },
-]
+import Old from './components/views/Old.vue'
 
 const router = createRouter({
-    history: createMemoryHistory(),
-    routes,
-})
-
-export default router
+    history: createWebHistory(),
+    routes: [
+      {
+        path: '/',
+        name: 'default',
+        component: Home
+      },
+      {
+        path: '/predecessor',
+        name: 'predecessor',
+        component: Old
+      }
+    ],
+    scrollBehavior(to) {
+        if (to.hash) {
+          return {
+            el: to.hash,
+            behavior: 'smooth',
+            top: 25,
+          }
+        }
+      },
+  })
+  
+  export default router

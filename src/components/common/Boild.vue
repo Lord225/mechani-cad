@@ -4,7 +4,7 @@ import { faCarSide, faTint, faBolt } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <template>
-  <div id="Bolid" class="offset container-bg">
+  <section id="Bolid" class="offset container-bg">
     <div class="container text-center">
       <h3 class="heading">{{ $t("bolid.discover") }}</h3>
       <div class="heading-underline"></div>
@@ -40,7 +40,7 @@ import { faCarSide, faTint, faBolt } from "@fortawesome/free-solid-svg-icons";
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

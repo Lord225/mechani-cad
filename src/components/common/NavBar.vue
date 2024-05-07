@@ -85,33 +85,38 @@ import "bootstrap";
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link class="nav-link" to="/Home">{{
+          <router-link class="nav-link" to="/#Home">{{
             $t("nav.home")
           }}</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/Bolid">{{
+          <router-link class="nav-link" to="/#Bolid">{{
             $t("nav.bolid")
           }}</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/Zespół">{{
+          <router-link class="nav-link" to="/#Zespół">{{
             $t("nav.team")
           }}</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/Zawody">{{
+          <router-link class="nav-link" to="/#Zawody">{{
             $t("nav.competition")
           }}</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/Współpraca">{{
+          <router-link class="nav-link" to="/#Współpraca">{{
             $t("nav.colab")
           }}</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/Kontakt">{{
+          <router-link class="nav-link" to="/#Kontakt">{{
             $t("nav.contact")
+          }}</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/predecessor">{{
+            $t("nav.predecessor")
           }}</router-link>
         </li>
         <li class="nav-item">

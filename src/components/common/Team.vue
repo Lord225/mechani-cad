@@ -48,7 +48,7 @@ export default {
 </script>
 
 <template>
-  <div id="Zespół" class="offset">
+  <section id="Zespół" class="offset">
     <div style="height: 25px;"></div>
     <div class="col-12 text-center">
       <h3 class="heading">{{ $t("team.team") }}</h3>
@@ -66,7 +66,7 @@ export default {
         :img="team.img"
       />
     </b-container>
-  </div>
+  </section>
 </template>
 
 <style lang="scss">
