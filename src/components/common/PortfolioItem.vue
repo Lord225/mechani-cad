@@ -15,9 +15,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .portfolio {
-  .img {
+  width: 100%;
+  img {
+    width: 100%;
     transition: transform 0.1s ease;
 
     &:hover {

@@ -7,42 +7,51 @@ export default {
     TeamCard,
     BContainer,
   },
-  data: mv => {
+  data() {
     return {
-      teams: [
-        {
-          title: mv.$t("team.zarzad.title"),
-          content: mv.$t("team.zarzad.content"),
+      teams: this.getTeams(),
+    };
+  },
+  watch: {
+    '$i18n.locale': function() {
+      this.teams = this.getTeams();
+    }
+  },
+  methods: {
+    getTeams() {
+      return [
+      {
+          title: this.$t("team.zarzad.title"),
+          content: this.$t("team.zarzad.content"),
           img: "img/zespol/zarzad.jpg",
         },
         {
-          title: mv.$t("team.mechaniczna.title"),
-          content: mv.$t("team.mechaniczna.content"),
+          title: this.$t("team.mechaniczna.title"),
+          content: this.$t("team.mechaniczna.content"),
           img: "/img/zespol/mechaniczna.jpg",
         },
         {
-          title: mv.$t("team.analizy.title"),
-          content: mv.$t("team.analizy.content"),
+          title: this.$t("team.analizy.title"),
+          content: this.$t("team.analizy.content"),
           img: "/img/zespol/analizy.png",
         },
         {
-            title: mv.$t("team.elektro.title"),
-            content: mv.$t("team.elektro.content"),
+            title: this.$t("team.elektro.title"),
+            content: this.$t("team.elektro.content"),
             img: "/img/zespol/elektro.png",   
         },
         {
-            title: mv.$t("team.marketing.title"),
-            content: mv.$t("team.marketing.content"),
+            title: this.$t("team.marketing.title"),
+            content: this.$t("team.marketing.content"),
             img: "/img/zespol/marketing.png",   
         },
         {
-            title: mv.$t("team.kierowcy.title"),
-            content: mv.$t("team.kierowcy.content"),
+            title: this.$t("team.kierowcy.title"),
+            content: this.$t("team.kierowcy.content"),
             img: "/img/zespol/kierowcy.jpg",
         }
-        
-      ],
-    };
+      ];
+    }
   },
 };
 </script>
